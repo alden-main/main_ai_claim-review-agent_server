@@ -1,0 +1,17 @@
+[project]
+name = "main-ai-claim-review-agent-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "alden-main", email = "alden@gkmain.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+main-ai-claim-review-agent-server = "main_ai_claim_review_agent_server:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
