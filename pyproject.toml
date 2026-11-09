@@ -7,7 +7,7 @@ authors = [
     { name = "alden-main", email = "alden@gkmain.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["psycopg[binary]>=3.2,<4"]
 
 [project.scripts]
 main-ai-claim-review-agent-server = "main_ai_claim_review_agent_server:main"
